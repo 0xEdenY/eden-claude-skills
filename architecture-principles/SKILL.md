@@ -330,3 +330,5 @@ AI 犯错 → 分析错误模式 → 加入 CLAUDE.md 禁止项 → AI 下次不
 | W1 | 上下文工程 | 给精准上下文得精准代码 | CLAUDE.md < 150 行，任务上下文在 prompt |
 | W2 | 可验证增量 | 小切片，做完验证再推进 | 垂直切片 → 测试 → commit → /clear；无依赖的 Task 可并行 |
 | W3 | 审查与学习 | review 每行，错误沉淀为规则 | Writer/Reviewer 分离，三问检查，犯错写入禁止项 |
+
+> 需要可视化架构、数据流或模块依赖时，使用 `excalidraw-diagram` skill 生成交互式架构图。
