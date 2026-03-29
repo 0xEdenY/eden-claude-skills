@@ -1,8 +1,6 @@
 ---
 name: prompt-craft
-description: |
-  Prompt 工程工作流。基于用户个人偏好和方法论，优化、编写、诊断 prompt。
-  当用户提到"优化 prompt"、"写 prompt"、"prompt 不好用"、"改一下提示词"、
+description: Prompt 工程工作流。当用户提到"优化 prompt"、"写 prompt"、"prompt 不好用"、"改一下提示词"、
   "prompt engineering"、"这个 prompt 怎么改"、"提示词"等相关表达时触发。
 allowed-tools:
   - Read

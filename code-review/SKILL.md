@@ -1,6 +1,6 @@
 ---
 name: code-review
-description: 代码审查工作流。在 Task 完成并 commit 后，用新会话系统性审查 diff，发现问题并将错误模式沉淀为规则。是 architecture-principles W3（审查与学习循环）的具体操作手册。当用户说"review 一下"、"审查代码"、"看看这个 diff"、"检查最近的提交"、"review PR"时触发。与 dev-workflow 和 change-guard 配合使用。
+description: 代码审查工作流。当用户说"review 一下"、"审查代码"、"看看这个 diff"、"检查最近的提交"、"review PR"时触发。
 ---
 
 # 代码审查工作流 Skill

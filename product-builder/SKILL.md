@@ -1,6 +1,6 @@
 ---
 name: product-builder
-description: 产品构建全流程引导。从一个模糊想法开始，通过 5 个阶段的苏格拉底式对话，逐步产出产品定义卡片、PRD、技术方案、开发任务清单和 CLAUDE.md。当用户说"新项目"、"我有个想法"、"帮我做产品定义"、"写 PRD"、"拆分任务"、"项目规划"时触发。也可以从中间任何阶段开始（如用户已有 PRD 只需任务拆分）。
+description: 产品构建全流程引导（想法→PRD→技术方案→任务清单）。当用户说"新项目"、"我有个想法"、"写 PRD"、"拆分任务"、"项目规划"时触发。
 ---
 
 # 产品构建全流程引导 Skill
@@ -619,3 +619,9 @@ project/
 当 5 个阶段全部走完、MVP 上线后，后续的产品迭代使用 `product-iteration` skill。它会基于本 skill 产出的 docs/ 目录进行增量更新，形成完整的产品生命周期：
 
 **product-builder**（从 0 到 1）→ **product-iteration**（从 1 到 N，反复循环）
+
+## 与其他 Skill 的关系
+
+- **product-iteration**：MVP 完成后的持续迭代。
+- **multi-perspective-debate**：阶段 1（产品发现）和阶段 3（技术选型）的关键决策可调用。
+- **service-designer**：如果产品是服务型而非软件型，转入 service-designer。
