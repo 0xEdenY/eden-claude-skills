@@ -1,6 +1,6 @@
 ---
 name: code-review
-description: 代码审查工作流。当用户说"review 一下"、"审查代码"、"看看这个 diff"、"检查最近的提交"、"review PR"时触发。
+description: 代码审查工作流。当用户说"帮我看看代码"、"写对了吗"、"review 一下"、"看看这个 diff"、"检查最近的提交"、"review PR"时触发。
 ---
 
 # 代码审查工作流 Skill
